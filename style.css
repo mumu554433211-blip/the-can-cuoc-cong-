@@ -1,6 +1,36 @@
-body { font-family: sans-serif; background-color: #f0f2f5; display: flex; justify-content: center; padding: 20px; }
-.card { background: white; width: 100%; max-width: 400px; padding: 20px; border-radius: 15px; box-shadow: 0 4px 10px rgba(0,0,0,0.1); }
-.header { color: #007bff; font-weight: bold; margin-bottom: 15px; }
-small { color: #888; font-size: 0.8em; }
+
+body {
+    background-color: #f0f2f5;
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    font-family: sans-serif;
+}
+
+.card {
+    background: linear-gradient(135deg, #e0f7fa 0%, #b2ebf2 100%); /* Nền xanh nhạt */
+    width: 350px;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    position: relative;
+    border: 1px solid #b2ebf2;
+}
+
+.header { color: #0056b3; font-weight: bold; margin-bottom: 20px; font-size: 1.1em; }
+small { color: #555; font-size: 0.75em; display: block; margin-top: 10px; }
+strong { font-size: 1.1em; color: #000; }
 .row { display: flex; gap: 40px; }
-p { margin: 10px 0; }
+
+/* Nút Chia sẻ */
+.share-btn {
+    background-color: #007bff;
+    color: white;
+    padding: 15px;
+    border-radius: 30px;
+    text-align: center;
+    margin-top: 30px;
+    width: 300px;
+    cursor: pointer;
+    font-weight: bold;
+}
